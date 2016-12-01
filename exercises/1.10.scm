@@ -88,3 +88,6 @@
 ; f :: n -> 2n   (multiplication)
 ; g :: n -> 2^n  (exponentiation)
 ; h :: n -> 2^^n (tetration)
+
+; Ackermann's function is related to Knuth's up-arrow notation and the idea of
+; hyperoperations
