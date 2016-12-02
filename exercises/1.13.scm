@@ -89,7 +89,7 @@
 ;   --------------- = -------------------------- = 1 = F(1)
 ;       sqrt(5)               2 * sqrt(5)
 ;
-; Now assume that the Lemma holds for n and n-1. Then by definition 1,
+; Now assume that the Lemma holds for n and n-1. Then by definition (1),
 ;
 ;      F(n+1) = F(n) + F(n-1)
 ;
@@ -119,7 +119,7 @@
 ; <=>  F(n+1) = ---------------------------------------------
 ;                                  sqrt(5)
 ;
-; Then from Corollary (1):
+; Then, again from Corollary (1):
 ;
 ;               phi^(n+1) - psi^(n+1)
 ; <=>  F(n+1) = ---------------------
