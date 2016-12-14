@@ -64,9 +64,9 @@
 ; Observe that:
 ;     1 < sqrt(5) < 3
 ; Therefore:
-;     psi = -1 < 0.5 * (1 - sqrt(5)) < 0
+;     -1 < psi < 0
 ; <=> -1 < psi^n < 1, for all n = 0, 1, 2, 3, ...
-; And since 0 < sqrt(5) < 1,
+; And since sqrt(5) > 1,
 ;     abs(psi^n / sqrt(5)) < 1
 
 ; Lemma (1)
