@@ -56,18 +56,21 @@
 
 ; Corollary (3)
 ; -------------
-;   |  psi^n  |
-;   | ------- | < 1, for all n = 0, 1, 2, 3, ...
-;   | sqrt(5) |
+;   |  psi^n  |    1
+;   | ------- | < ---, for all n = 0, 1, 2, 3, ...
+;   | sqrt(5) |    2
 ;
 ; Proof:
 ; Observe that:
-;     1 < sqrt(5) < 3
+;     -1 < psi = -0.618... < 0
+; and sqrt(5) = 2.236...
 ; Therefore:
-;     -1 < psi < 0
-; <=> -1 < psi^n < 1, for all n = 0, 1, 2, 3, ...
-; And since sqrt(5) > 1,
-;     abs(psi^n / sqrt(5)) < 1
+;     abs(psi^n) < abs(psi)
+; and:
+;   |  psi^n  |   |   psi   |    1
+;   | ------- | < | ------- | < ---, for all n = 0, 1, 2, 3, ...
+;   | sqrt(5) |   | sqrt(5) |    2
+
 
 ; Lemma (1)
 ; ---------
